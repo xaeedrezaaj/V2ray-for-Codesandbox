@@ -3,5 +3,11 @@
   "setupTasks": [],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
-  "tasks": {}
+  "tasks": {
+    "apt update -y && apt install -y wget unzip nginx supervisor qrencode net-tools": {
+      "name": "apt update -y && apt install -y wget unzip nginx supervisor qrencode net-tools",
+      "command": "apt update -y && apt install -y wget unzip nginx supervisor qrencode net-tools",
+      "runAtStart": true
+    }
+  }
 }
